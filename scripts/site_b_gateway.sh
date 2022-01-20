@@ -8,7 +8,7 @@ iptables -t nat -A POSTROUTING -o enp0s8 -j MASQUERADE
 iptables-save > /etc/iptables/rules.v4
 ip6tables-save > /etc/iptables/rules.v6
 
-echo 172.16.16.16 172.30.30.30 : PSK "8WXy6xErrtUXLKXiM3GghS3GY3l1cg8GVNqOdj3JZCQ=" >> /etc/ipsec.secrets
+echo 172.16.18.18 172.30.30.30 : PSK "8WXy6xErrtUXLKXiM3GghS3GY3l1cg8GVNqOdj3JZCQ=" >> /etc/ipsec.secrets
 
 cat << EOF > /etc/ipsec.conf
 config setup

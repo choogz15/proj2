@@ -22,7 +22,7 @@ conn gatewaya-to-gatewaycloud
   left=172.16.16.16
   leftsubnet=172.16.16.16/32
   right=172.30.30.30
-  rightsubnet=10.2.0.0/16
+  rightsubnet=172.30.30.30/32
   keyexchange=ikev2
   ike=aes256-sha2_256-modp1024!
   esp=aes256-sha2_256!
